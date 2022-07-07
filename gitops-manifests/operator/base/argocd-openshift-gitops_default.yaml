@@ -66,6 +66,7 @@ spec:
     defaultPolicy: role:readonly
     policy: |
       g, system:cluster-admins, role:admin
+      g, ocp-admins, role:admin
     scopes: '[groups]'
   redis:
     resources:
