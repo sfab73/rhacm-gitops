@@ -3,8 +3,8 @@ kind: ArgoCD
 metadata:
   finalizers:
   - argoproj.io/finalizer
-  name: openshift-gitops
-  namespace: openshift-gitops
+  name: openshift-gitops-tmp
+  namespace: openshift-gitops-tmp
 spec:
   applicationSet:
     resources:

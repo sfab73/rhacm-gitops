@@ -4,7 +4,7 @@ metadata:
   name: channel-openshift-gitops
   namespace: ns-channel-ocpgitops
   labels:
-    app:  openshift-gitops
+    app:  openshift-gitops-tmp
   annotations:
     apps.open-cluster-management.io/reconcile-rate: high
 spec:

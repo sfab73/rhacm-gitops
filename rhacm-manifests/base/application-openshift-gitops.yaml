@@ -1,10 +1,10 @@
 apiVersion: app.k8s.io/v1beta1
 kind: Application
 metadata:
-  name: argocd
-  namespace: openshift-gitops
+  name: argocd-tmp
+  namespace: openshift-gitops-tmp
   labels:
-    app: argocd
+    app: argocd-tmp
   annotations:
     apps.open-cluster-management.io/deployables: ''
 spec:
@@ -17,4 +17,4 @@ spec:
       - key: app
         operator: In
         values:
-          - argocd
+          - argocd-tmp

@@ -2,9 +2,9 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: openshift-gitops-placementrule-stage
-  namespace: openshift-gitops
+  namespace: openshift-gitops-tmp
   labels:
-    app: argocd
+    app: argocd-tmp
 spec:
   clusterConditions:
     - type: ManagedClusterConditionAvailable

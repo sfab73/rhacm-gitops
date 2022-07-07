@@ -2,10 +2,10 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
   name: openshift-gitops-subscription-stage
-  namespace: openshift-gitops
+  namespace: openshift-gitops-tmp
   labels:
-    app: argocd
-    app.kubernetes.io/part-of: argocd
+    app: argocd-tmp
+    app.kubernetes.io/part-of: argocd-tmp-tmp
     apps.open-cluster-management.io/reconcile-rate: high
   annotations:
     apps.open-cluster-management.io/deployables: ''
