@@ -5,7 +5,7 @@ metadata:
   namespace: openshift-gitops-tmp
   labels:
     app: argocd-tmp
-    app.kubernetes.io/part-of: argocd-tmp-tmp
+    app.kubernetes.io/part-of: argocd-tmp
     apps.open-cluster-management.io/reconcile-rate: high
   annotations:
     apps.open-cluster-management.io/deployables: ''
